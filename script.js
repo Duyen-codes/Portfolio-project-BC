@@ -5,7 +5,7 @@ const navSlide = () => {
 
     burger.addEventListener('click', () => {
         // Toggle Nav  
-        burger.style.border = '1px dotted red';
+        burger.style.border = '2px dashed red';
         nav.classList.toggle('nav-active');
         // Animate Links 
         navLinks.forEach((link, index) => {
