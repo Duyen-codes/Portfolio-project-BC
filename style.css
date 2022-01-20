@@ -58,6 +58,24 @@ nav {
     transition: all .3s ease;
 }
 
+/* Scroll to top button  */
+.scroll-to-top {
+    position: fixed;
+    bottom: 0;
+    right: 20px; 
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    font-size: 40px;
+    color: pink;
+    border: none;
+    background-color: transparent;
+}
+
+.scroll-to-top:hover {
+    background-color: pink;
+    color: white;
+}
 
 /* Mobile Nav  */
 @media screen and (max-width: 900px){
