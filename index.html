@@ -14,7 +14,7 @@
     <!-- Header -->
     <header>
         <!-- Nav  -->
-        <nav class="primary-nav" aria-label="primary navigation">
+        <nav class="primary-nav" aria-labelledby="primary-nav-label" aria-label="primary navigation">
             <a href="/" title="Go to home page" class="logo">
                 <img src="logo.png" alt="Site logo">{DN}</a>
             <ul class="nav_links">
@@ -29,9 +29,17 @@
                 <div class="line3"></div>
             </div>
         </nav>
+
     </header>
 
     <h1 class="duyen">[Hello World!]</h1>
+    <form role="search" aria-label="site">
+        <label>
+            <span>Search</span>
+            <input type="search" />
+        </label>
+        <button type="submit">Submit</button>
+    </form>
     <!-- Main -->
     <main>
         <!-- project section  -->
@@ -120,6 +128,9 @@
             </section>
         </article>
         <!-- Contact  -->
+        <form action="">
+            label
+        </form>
         <article>
             <section class="contact" id="contact">
                 <h2 class="section_heading">Contact</h2>
