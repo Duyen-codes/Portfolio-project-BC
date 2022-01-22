@@ -1,7 +1,8 @@
+const burger = document.querySelector('.burger')
+const nav = document.querySelector('.nav_links');
+const navLinks = document.querySelectorAll('.nav_links li')
+
 const navSlide = () => {
-    const burger = document.querySelector('.burger')
-    const nav = document.querySelector('.nav_links');
-    const navLinks = document.querySelectorAll('.nav_links li')
 
     burger.addEventListener('click', () => {
         // Toggle Nav  
@@ -19,6 +20,7 @@ const navSlide = () => {
         burger.classList.toggle('toggle');
     })
 }
+
 navSlide();
 
 // Hide or show the scroll button
