@@ -17,6 +17,10 @@ html {
     font-weight: 400;
 }
 
+ul {
+    list-style: none;
+}
+
 a {
     text-decoration: none;
     cursor: pointer;
@@ -97,7 +101,7 @@ p {
 }
 
 .nav_links a {
-    color: rgb(70, 59, 59);
+    color: #000;
     text-decoration: none;
     letter-spacing: 3px;
     font-weight: bold;
@@ -151,6 +155,33 @@ nav {
     position: sticky;
     top: 0;
 }
+
+.btn_search, .btn_send{
+    border: 2px solid #ff7a18;
+    box-shadow: 8px 8px 0 #189DFF;
+    background-color: #ff7a18;
+    text-transform: uppercase;
+    padding: 8px 20px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+/* Footer  */
+/* nav social  */
+.nav_social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_social i {
+    border: 5px solid #ff7a18;
+    font-size: 40px;
+    padding: 2px;
+    /* background-color: #18FF7A; */
+    /* color: #7A18FF; */
+    box-shadow: 5px 5px 0 #ff7a18;
+}
+
 /* Desktop  */
 @media screen and (min-width: 800px) {
     .nav_links {
