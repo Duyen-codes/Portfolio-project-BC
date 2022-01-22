@@ -11,31 +11,35 @@
 </head>
 
 <body>
+    <!-- Header -->
+    <header>
+        <!-- Nav  -->
+        <nav class="primary-nav">
+            <a href="#" class="logo">{DN}</a>
+            <ul class="nav_links">
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
 
-    <nav>
-        <div class="logo">
-            <h4>{Duyen}</h4>
-        </div>
-        <ul class="nav_links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Project</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-        <div class="burger">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-        </div>
-    </nav>
-
+    <h1 class="duyen">[Hello World!]</h1>
+    <!-- Main -->
     <main>
-        <section class="home" id="Home">
-            <h1 class="duyen">[Hello World!]</h1>
+        <!-- project section  -->
+        <section class="projects" id="projects">
+            <h2 class="section_heading">Projects</h2>
         </section>
 
-        <section class="about">
-            <h2>About Me</h2>
+        <section class="about" id="about">
+            <h2 class="section_heading">About Me</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, minima!</p>
         </section>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur minima voluptas veritatis reiciendis
@@ -98,9 +102,9 @@
             Dignissimos aspernatur hic beatae repellendus. Odio, ad rem nisi inventore odit eveniet laudantium debitis
             consequuntur aspernatur, natus asperiores fugit. Consequatur, recusandae voluptate dolore itaque repudiandae
             doloremque sapiente ullam perferendis voluptas.</p>
-        <!-- Project  -->
-        <section class="project">
-            <h2>Project</h2>
+        <!-- skill section  -->
+        <section class="skills" id="skills">
+            <h2 class="section_heading">Skills</h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente a blanditiis, dicta cumque saepe natus
                 et nobis eaque recusandae sunt enim minus eveniet? Eos, sunt dolorem? Unde, a. Dignissimos, at?
                 Magnam illo dolor iure ex quaerat, explicabo fugit cumque enim repellendus quis dolore aperiam
@@ -131,8 +135,8 @@
                 Mollitia, animi voluptate! Tempore, deleniti unde?</p>
         </section>
         <!-- Contact  -->
-        <section class="contact">
-            <h2>Contact</h2>
+        <section class="contact" id="contact">
+            <h2 class="section_heading">Contact</h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, recusandae aliquam? Explicabo, illo
                 molestias saepe sapiente, blanditiis quasi magni sit voluptatum reprehenderit tempora ipsa eaque id
                 animi velit dolore ipsam!
@@ -168,9 +172,15 @@
     </main>
     <!-- Footer  -->
     <footer>
-        <a href="#"><i class="fab fa-linkedin"></i></a>
-        <a href="#"><i class="fab fa-github"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
+
+        <section class="social">
+            <h2 class="section_heading">Share</h2>
+            <ul class="nav_social">
+                <li><a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                <li><a href="#"><i class="fab fa-github"></i> Github</a></li>
+                <li><a href="#"><i class="fab fa-codepen"></i> Codepen</a></li>
+            </ul>
+        </section>
 
     </footer>
     <script src="script.js"></script>
