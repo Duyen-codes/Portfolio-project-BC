@@ -128,17 +128,37 @@
             </section>
         </article>
         <!-- Contact  -->
-        <form action="">
-            label
-        </form>
+
         <article>
             <section class="contact" id="contact">
                 <h2 class="section_heading">Contact</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, recusandae aliquam? Explicabo, illo
-                    molestias saepe sapiente, blanditiis quasi magni sit voluptatum reprehenderit tempora ipsa eaque id
-                    animi velit dolore s fuga doloremque vero consequatur dolor,
-                    Et recusandae enim accusantium quod. Qui s sed! Ipsam autem dolore error
-                    natus blanditiis!</p>
+
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, recis!</p>
+                <form action="" class="form_contact">
+                    <div>
+                        <label for="name" class="form_label">Name:
+                        </label>
+                        <input id="name" type="text" class="form_control" name="username" required>
+                    </div>
+                    <div>
+                        <label for="email" class="form_label">Email:</label>
+                        <input id="email" type="email" class="form_control" name="email" required>
+                    </div>
+                    <div>
+                        <label for="usersocial">Where are you active the most?</label>
+                        <select name="usersocial" id="usersocial">
+                            <option value="LinkedIn">LinkedIn</option>
+                            <option value="Github">Github</option>
+                            <option value="Codepen">Codepen</option>
+                            <option value="others">Others</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="message" class="form_label">Leave a message:</label>
+                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    </div>
+                    <button type="submit">Send</button>
+                </form>
             </section>
         </article>
         <button class="scroll-to-top" onclick="scrollToTop()"><i class="fas fa-arrow-up"></i></button>
